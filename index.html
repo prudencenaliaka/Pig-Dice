@@ -9,7 +9,32 @@
     <title>pig dice game</title>
   </head>
   <body>
-    <h1>Pig Dice Game</h1>
+    <div class="container">
+      <div class="row">
+        <h1>Pig Dice Game</h1>
+        <p>pig dice game is all about rolling  dice to get a score</p>
+          <div class="col-md-4">
+            <p>first player</p><br>
+            <div class="btn">
+              <div class="dice" id="firstdie">0</div>
+              <button  id="roll-firstdie" type="button" onclick="rollfirstdie()">Roll Die</button>
+              <h3 id="moringa"></h3>
+              <h3 id="cScore"></h3>
+              <h3 id="hold"></h3>
+            </div>
+          </div>
 
+          <div class="col-md-4">
+            <p>second player</p><br>
+            <div class="btn">
+              <div class="dice" id="seconddie">0</div>
+              <button  id="roll-seconddie" type="button" onclick="rollseconddie()">Roll Die</button>
+              <h3 id="moringah"></h3>
+              <h3 id="cScoree"></h3>
+              <h3 id="stop"></h3>
+            </div>
+          </div>
+          </div>
+          </div>
   </body>
 </html>
