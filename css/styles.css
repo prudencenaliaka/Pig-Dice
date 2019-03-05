@@ -1,6 +1,9 @@
 .prudy{
   background-color:pink;
 }
-.panel-header{
+h1.panel-header{
+  background-color: #ffffff;
+}
+h3.panel-header{
   background-color: #ffffff;
 }
