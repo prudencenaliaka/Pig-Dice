@@ -8,16 +8,17 @@
     <meta charset="utf-8">
     <title>pig dice game</title>
   </head>
-  <body >
+  <body class="prudy">
     <div class="container">
       <div class="row">
         <h1 class="panel-header">Pig Dice Game</h1>
         <p>pig dice game is a game involving die rolling where one will reach at different values destination</p>
-        <h3>Instructions</h3>
+        <h3 class="panel-header">Instructions</h3>
         <p>1.Play the game when it's your turn</p>
         <p>2.When a die rolls on 1,it's the other players' turn to play</p>
         <p>3.Get the cumulative score of each player</p>
           <div class="col-md-4">
+            <div class="well">
             <p>first player</p><br>
             <div class="btn">
               <div class="dice" id="firstdie">0</div>
@@ -27,6 +28,7 @@
               <p id="hold1"></p>
             </div>
           </div>
+          </div>
           <div class="col-md-4">
             <p>button for hold</p><br>
             <button type="button" onclick="" id="holdOne">hold1</button>
@@ -34,6 +36,7 @@
           </div>
 
           <div class="col-md-4">
+            <div class="well">
             <p>second player</p><br>
             <div class="btn">
               <div class="dice" id="seconddie">0</div>
@@ -42,6 +45,7 @@
               <p id="cScoree"></p>
               <p id="hold2"></p>
             </div>
+          </div>  
           </div>
           </div>
           </div>
