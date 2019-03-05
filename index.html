@@ -8,21 +8,29 @@
     <meta charset="utf-8">
     <title>pig dice game</title>
   </head>
-  <body>
+  <body >
     <div class="container">
       <div class="row">
-        <h1>Pig Dice Game</h1>
-        <p>pig dice game is a game involving die rolling where one will may reach at different values destination</p>
-        <h2>Instructions</h2>
+        <h1 class="panel-header">Pig Dice Game</h1>
+        <p>pig dice game is a game involving die rolling where one will reach at different values destination</p>
+        <h3>Instructions</h3>
+        <p>1.Play the game when it's your turn</p>
+        <p>2.When a die rolls on 1,it's the other players' turn to play</p>
+        <p>3.Get the cumulative score of each player</p>
           <div class="col-md-4">
             <p>first player</p><br>
             <div class="btn">
               <div class="dice" id="firstdie">0</div>
               <button  id="roll-firstdie" type="button" onclick="rollfirstdie()">Roll Die</button>
-              <h3 id="moringa"></h3>
-              <h3 id="cScore"></h3>
-              <h3 id="hold1"></h3>
+              <p id="moringa"></p>
+              <p id="cScore"></p>
+              <p id="hold1"></p>
             </div>
+          </div>
+          <div class="col-md-4">
+            <p>button for hold</p><br>
+            <button type="button" onclick="" id="holdOne">hold1</button>
+            <button type="button" onclick="" id="holdTwo">hold2</button>
           </div>
 
           <div class="col-md-4">
@@ -30,9 +38,9 @@
             <div class="btn">
               <div class="dice" id="seconddie">0</div>
               <button  id="roll-seconddie" type="button" onclick="rollseconddie()">Roll Die</button>
-              <h3 id="moringah"></h3>
-              <h3 id="cScoree"></h3>
-              <h3 id="hold2"></h3>
+              <p id="moringah"></p>
+              <p id="cScoree"></p>
+              <p id="hold2"></p>
             </div>
           </div>
           </div>
