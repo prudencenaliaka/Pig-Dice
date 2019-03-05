@@ -22,19 +22,20 @@
             <p>first player</p><br>
             <div class="btn">
               <div class="dice" id="firstdie">0</div>
-              <button  id="roll-firstdie" type="button" onclick="rollfirstdie()">Roll Die</button>
+              <button  id="roll-firstdie" type="button" onclick="trial()">Roll Die</button>
               <p id="moringa"></p>
               <p id="cScore"></p>
               <p id="hold1"></p>
+              <h4>Score</h4>
+              <p id="score1"></p>
             </div>
           </div>
           </div>
           <div class="col-md-4">
             <p>button for hold</p><br>
-            <button type="button" onclick="" id="holdOne">hold1</button>
-            <button type="button" onclick="" id="holdTwo">hold2</button>
+            <button type="button" onclick="hold()" id="holdOne">holdOne</button>
+            <button type="button" onclick="hold()" id="holdTwo">holdTwo</button>
           </div>
-
           <div class="col-md-4">
             <div class="well">
             <p>second player</p><br>
@@ -44,10 +45,12 @@
               <p id="moringah"></p>
               <p id="cScoree"></p>
               <p id="hold2"></p>
+              <h4>Score</h4>
+              <p id="Score2"></p>
             </div>
-          </div>  
           </div>
-          </div>
-          </div>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
