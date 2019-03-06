@@ -13,7 +13,7 @@ The project is about coming up with a pigdice game that will incoorporate all th
 ## Dependencies
 As per the moment there are no dependencies
 ## Known Bugs
-there are no bugs
+the cumulative score of player one adds to player when the button is hold and player two plays and vice versa.
 ## Technologies Used
 HTML(hypertext markup language) with the use of custom made stylesheet
 JavaScript that uses jquery
