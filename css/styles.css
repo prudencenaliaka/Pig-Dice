@@ -7,3 +7,9 @@ h1.panel-header{
 h3.panel-header{
   background-color: #ffffff;
 }
+#roll-firstdie{
+  background-color: red;
+}
+#roll-seconddie{
+  background-color: red;
+}
